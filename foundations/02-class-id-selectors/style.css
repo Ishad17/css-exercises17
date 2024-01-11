@@ -1,0 +1,19 @@
+
+.shared{
+    font-family: 'Verdana', 'DejaVu sans' , sans-serif;
+    background-color: rgb(247, 35, 63);
+}
+
+#line2 {
+    color:hsl(246, 83%, 44%);
+    font-size: 36px;
+}
+
+.line3 {
+    font-size: 24px;
+}
+
+#line4 {
+    font-weight: bold;
+    background-color: #01ff4d;
+}
