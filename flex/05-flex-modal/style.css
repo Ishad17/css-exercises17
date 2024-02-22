@@ -15,18 +15,47 @@ body {
   justify-content: center;
 }
 
+.btns{
+ margin: 5px; 
+}
+  
+
+.header{
+  font-weight: 1000;
+  padding: 5px;
+  align-items: start;
+  font-size: large;
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  max-width: 400px;
+}
+
+.text{
+  width: 420px;
+  margin-bottom: 10px;
+}
+
 .modal {
-  background: white;
+  flex-wrap: wrap;
+  background: rgb(255, 255, 255);
   width: 480px;
+  padding: 15px;
+  display: flex;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  justify-content: space-between; 
 }
 
 .icon {
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
-  background: lavender;
+  background: rgb(236, 236, 248);
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -49,6 +78,11 @@ body {
   border: 1px solid #eee;
   padding: 0;
 }
+
+*{
+  outline: 2px solid red;;
+}
+
 
 button {
   cursor: pointer;

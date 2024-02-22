@@ -70,9 +70,14 @@ button.cancel {
 
 /* SOLUTION: */
 
+*{
+  outline: 2px solid red;;
+}
+
 .modal {
   display: flex;
   gap: 16px;
+
   padding: 16px;
 }
 
